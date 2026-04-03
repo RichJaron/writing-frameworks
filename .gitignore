@@ -1,0 +1,25 @@
+# WorkBuddy 系统文件，不上传
+BOOTSTRAP.md
+IDENTITY.md
+SOUL.md
+USER.md
+argv.json
+binaries/
+connectors-marketplace/
+expert-history.json
+extensions/
+infsh-install.ps1
+mcp.json
+models.json
+plugins/
+settings.json
+skills-marketplace/
+skills/nano-banana-2/
+skills/nano-banana-2-temp/
+skills/skill-creator/
+skills/twitter-automation-temp/
+workspace-state.json
+
+# 只同步这两个
+# skills/writing-frameworks/
+# memory/MEMORY.md
