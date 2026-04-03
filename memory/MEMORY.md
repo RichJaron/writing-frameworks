@@ -4,7 +4,7 @@
 正在构建一套「短视频文案编写技能框架」，适用于全域短视频平台。每个框架产出：说明文档 + Prompt模板。
 
 ## 框架存储位置
-`C:\Users\HUAWEI\.workbuddy\skills\writing-frameworks\frames\`
+`C:\Users\EDY\.workbuddy\skills\writing-frameworks\frames\`
 
 ## 框架一（已完成）：原子信息喂养 FR-001
 
@@ -40,13 +40,13 @@
 - `skills/writing-frameworks/` — 框架 + Prompt + 示例
 - `memory/MEMORY.md` — 判断标准 + 用户偏好
 
-**克隆目标路径**：`C:\Users\HUAWEI\.workbuddy\`
+**克隆目标路径**：`C:\Users\EDY\.workbuddy\`
 - skills 路径天然对齐
 - memory/MEMORY.md 直接放进该路径，WorkBuddy 可读取
 
 **更新命令**：
 ```powershell
-cd C:\Users\HUAWEI\.workbuddy
+cd C:\Users\EDY\.workbuddy
 git add skills/writing-frameworks memory/MEMORY.md
 git commit -m "update: ..."
 git push
