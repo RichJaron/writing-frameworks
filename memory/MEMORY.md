@@ -32,5 +32,25 @@
 - 例子要具体可感，避免太常见的信息
 - 学术引用要深入（未来要求）
 
+## Git 同步仓库
+
+**地址**：`https://github.com/RichJaron/writing-frameworks`
+
+**同步内容**：
+- `skills/writing-frameworks/` — 框架 + Prompt + 示例
+- `memory/MEMORY.md` — 判断标准 + 用户偏好
+
+**克隆目标路径**：`C:\Users\HUAWEI\.workbuddy\`
+- skills 路径天然对齐
+- memory/MEMORY.md 直接放进该路径，WorkBuddy 可读取
+
+**更新命令**：
+```powershell
+cd C:\Users\HUAWEI\.workbuddy
+git add skills/writing-frameworks memory/MEMORY.md
+git commit -m "update: ..."
+git push
+```
+
 ## 进行中任务
 - 继续构建下一个框架（用户将提供）
