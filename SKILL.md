@@ -94,29 +94,26 @@ writing-frameworks/
 **仓库地址**：`https://github.com/RichJaron/writing-frameworks`
 
 **同步内容**：
-- `skills/writing-frameworks/` — 框架 + Prompt + 示例
+- `frames/` — 框架目录
 - `memory/MEMORY.md` — 判断标准 + 用户偏好
+- `SKILL.md` — 技能入口
+- `SYNC_GUIDE.md` — 同步指南
+
+**克隆目标路径**：
+```powershell
+cd C:\Users\HUAWEI\.workbuddy
+git clone https://github.com/RichJaron/writing-frameworks.git .
+```
 
 **更新命令**：
 ```powershell
-cd C:\Users\EDY\.workbuddy
-git add skills/writing-frameworks memory/MEMORY.md
+cd C:\Users\HUAWEI\.workbuddy
+git add frames memory/MEMORY.md SKILL.md SYNC_GUIDE.md .gitignore
 git commit -m "update: ..."
 git push
 ```
 
-**注意**：Git仓库结构为：
-```
-writing-frameworks/
-├── SKILL.md
-├── memory/
-│   └── MEMORY.md
-└── skills/
-    └── writing-frameworks/
-        └── frames/
-            └── FR-001-atom-info/
-```
-克隆后需要手动将 `skills/writing-frameworks/frames/` 移动到 `frames/` 并删除多余的 `skills/` 目录。
+**注意**：克隆到 `.workbuddy` 根目录后，仓库文件直接在根目录，无需额外移动。
 
 ---
 
